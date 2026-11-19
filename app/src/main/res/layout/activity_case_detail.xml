@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/ArLabel" android:text="Номер дела" />
+        <TextView android:id="@+id/tvNumber" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Название" />
+        <TextView android:id="@+id/tvTitle" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Год" />
+        <TextView android:id="@+id/tvYear" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Категория" />
+        <TextView android:id="@+id/tvCategory" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Тип документа" />
+        <TextView android:id="@+id/tvType" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Дата поступления" />
+        <TextView android:id="@+id/tvDate" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Место хранения" />
+        <TextView android:id="@+id/tvLocation" style="@style/ArValue" />
+
+        <TextView style="@style/ArLabel" android:text="Примечание" />
+        <TextView android:id="@+id/tvDescription" style="@style/ArValue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="Редактировать" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="Удалить"
+                android:textColor="@color/ar_danger" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

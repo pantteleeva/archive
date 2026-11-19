@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ar_primary">#1F4E79</color>
+    <color name="ar_primary_dark">#143552</color>
+    <color name="ar_accent">#2E86C1</color>
+    <color name="ar_bg">#F4F6F8</color>
+    <color name="ar_text">#1B1B1F</color>
+    <color name="ar_text_second">#5F6368</color>
+    <color name="ar_danger">#C0392B</color>
+
+    <style name="Theme.ArchiveApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ar_primary</item>
+        <item name="colorPrimaryDark">@color/ar_primary_dark</item>
+        <item name="colorAccent">@color/ar_accent</item>
+        <item name="android:windowBackground">@color/ar_bg</item>
+    </style>
+
+    <style name="ArLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/ar_text_second</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="ArValue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/ar_text</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>

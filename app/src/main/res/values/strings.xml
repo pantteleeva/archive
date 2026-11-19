@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Архив</string>
+    <string name="app_subtitle">Учёт архивных дел</string>
+
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="login_error_empty">Введите логин и пароль</string>
+    <string name="login_error_wrong">Неверный логин или пароль</string>
+
+    <string name="search_hint">Поиск по номеру или названию</string>
+    <string name="btn_filters">Фильтры и сортировка</string>
+    <string name="all_years">Все годы</string>
+    <string name="all_categories">Все категории</string>
+    <string name="all_types">Все типы документов</string>
+    <string name="btn_reset">Сбросить</string>
+    <string name="order_asc">По возрастанию ↑</string>
+    <string name="order_desc">По убыванию ↓</string>
+    <string name="found_count">Найдено дел: %1$d</string>
+    <string name="empty_list">Дела не найдены</string>
+    <string name="menu_logout">Выйти</string>
+    <string name="logged_as">Сотрудник: %1$s</string>
+
+    <string name="title_new_case">Новое дело</string>
+    <string name="title_edit_case">Редактирование дела</string>
+    <string name="title_case_details">Карточка дела</string>
+
+    <string name="field_number">Номер дела (например, 125/2024)</string>
+    <string name="field_title">Название</string>
+    <string name="field_year">Год</string>
+    <string name="field_category">Категория</string>
+    <string name="field_type">Тип документа</string>
+    <string name="field_date">Дата поступления</string>
+    <string name="field_location">Место хранения</string>
+    <string name="field_description">Примечание</string>
+
+    <string name="label_number">Номер дела</string>
+    <string name="label_title">Название</string>
+    <string name="label_year">Год</string>
+    <string name="label_category">Категория</string>
+    <string name="label_type">Тип документа</string>
+    <string name="label_date">Дата поступления</string>
+    <string name="label_location">Место хранения</string>
+    <string name="label_description">Примечание</string>
+
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+
+    <string name="confirm_delete_title">Удаление дела</string>
+    <string name="confirm_delete_text">Удалить дело «%1$s»? Это действие нельзя отменить.</string>
+    <string name="msg_saved">Дело сохранено</string>
+    <string name="msg_deleted">Дело удалено</string>
+    <string name="err_required">Заполните это поле</string>
+    <string name="err_year">Укажите год от 1900 до 2100</string>
+    <string name="err_duplicate">Дело с таким номером уже есть</string>
+    <string name="err_not_found">Дело не найдено</string>
+
+    <string-array name="sort_fields">
+        <item>Номер дела</item>
+        <item>Название</item>
+        <item>Год</item>
+        <item>Дата поступления</item>
+    </string-array>
+</resources>
